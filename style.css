@@ -98,3 +98,9 @@ header{
     transform: translateY(-15px);
 
 }
+.btn-sucess{
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 7px 20px;
+    border: none;
+}

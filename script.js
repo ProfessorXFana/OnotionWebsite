@@ -1,9 +1,10 @@
+//  header Animation start
+
 const text =document.getElementById('text');
 const leaf =document.getElementById('leaf');
 const hill1 =document.getElementById('hill1');
 const hill4 =document.getElementById('hill4');
 const hill5 =document.getElementById('hill5');
-const subText = document.getElementById('subtext');
 
 window.addEventListener('scroll',function(){
     const value = window.scrollY;
@@ -14,7 +15,6 @@ window.addEventListener('scroll',function(){
     hill4.style.left = value * -1.5 + 'px';
     hill5.style.left = value * 1.5 + 'px';
     hill1.style.top = value * 1.5 + 'px';
-    subText.style.marginTop = value * 2.5 + "px";
-
-
 })
+
+//  header Animation end
